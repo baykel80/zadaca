@@ -1,0 +1,10 @@
+function reservation(ID,ReservedFrom,ReservedUntil){
+        for(var i=0;i<hall.length;i++){
+            if(hall[i].id==ID){
+              hall[i].reservation.reservedFrom=ReservedFrom;
+              hall[i].reservation.reservedUntil=ReservedUntil;
+              return hall;
+            }
+          }
+      return hall;
+    }
